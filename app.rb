@@ -3,7 +3,7 @@ require 'sinatra'
 require 'json'
 
 require './GetWhoisInfo'
-get '/' do
+get '/get_whois_info' do
   dn = params['name']
   dn = [dn] if dn.instance_of?(String)
   wi = get_whois(dn)
