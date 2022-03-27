@@ -15,4 +15,4 @@ gem 'sinatra-contrib'
 gem 'solargraph'
 gem 'whois'
 gem 'whois-parser'
-
+gem 'unicorn'
